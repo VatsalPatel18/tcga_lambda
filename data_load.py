@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-class BasicPreProcess:
+class DataLoad:
     def __init__(self, cancer_type,out_loc=None):
         self.cancer_type = cancer_type
         self.out_dir = f'{out_loc}/{self.cancer_type}'
